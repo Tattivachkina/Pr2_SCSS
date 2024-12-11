@@ -1,0 +1,42 @@
+.section-quote {
+    color: #56593D;
+    margin-top: 94px;
+    font-family: Roboto;
+    font-size: 57px;
+    line-height: 81px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  
+  .section-quote .links {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-quote .link {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #56593D;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.600000023841858px;
+    text-align: center;
+  }
+  
+  .section-quote .link img {
+    margin-left: 5px;
+  }
+  
+  .section-quote .link:not(:first-child){
+    margin-left: 68px;
+  }
+  
+  @media (max-width: 700px) {
+    .section-quote {
+      font-size: 24px;
+      line-height: 24px;
+    }
+  }
